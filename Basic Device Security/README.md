@@ -9,9 +9,19 @@ Each step includes both the **task** and the **required command(s)**.
 1. Change the hostnames of the router and switch to the appropriate names (R1, SW1)
      ##Use the 'hostname' command in global configuration mode##
 ON ROUTER
-   ```enable
-   configure terminal
-   hostname R1```
+```
+Router> enable
+Router# configure terminal
+Router(config)# hostname R1
+```
+ON SWITCH
+```
+Switch> enable
+Switch# configure terminal
+Switch(config)# hostname SW1
+```
+
+
    
 
 3.  Configure an unencrypted enable password of 'CCNA' on both devices
