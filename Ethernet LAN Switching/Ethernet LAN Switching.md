@@ -12,30 +12,23 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
    
 
    - PC1 sends an ARP request:
-
         - This is a Layer 2 broadcast (FF:FF:FF:FF:FF:FF).
-
         - All devices on the LAN (PC2, SW1, SW2, PC3, PC4) will receive the ARP request.
 
     - PC3 replies with an ARP reply (unicast):
-
         - Sent only to PC1's MAC address.
 
     - PC1 sends ICMP Echo Request ("ping") to PC3:
-
         - Now knows PC3's MAC, so the packet is unicast.
 
     - PC3 sends ICMP Echo Reply to PC1:
-
         - Also unicast, delivered back across switches.
 
   
-3. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
+2. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
    
    - Click Simulation Mode.
-
    - Initiate ping 192.168.1.3 from PC1.
-
    - Step through each event.
 
        - Observe the ARP request being broadcast.
