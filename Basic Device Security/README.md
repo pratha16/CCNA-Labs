@@ -7,7 +7,7 @@ Each step includes both the **task** and the **required command(s)**.
 
 ---
 1. Change the hostnames of the router and switch to the appropriate names (R1, SW1)
-     ##Use the 'hostname' command in global configuration mode##
+
 ON ROUTER
 ```
 Router> enable
