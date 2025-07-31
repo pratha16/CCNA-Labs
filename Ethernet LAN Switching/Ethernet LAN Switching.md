@@ -8,9 +8,8 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
 1. If PC1 pings to PC3, what messages will be sent over the network, and which devices will receive them?
 
-Message Sequence:
-
-    PC1 sends an ARP request:
+   Message Sequence:
+   PC1 sends an ARP request:
 
         Who has 192.168.1.3 (PC3)?
 
@@ -29,6 +28,8 @@ Message Sequence:
     PC3 sends ICMP Echo Reply to PC1:
 
         Also unicast, delivered back across switches.
+
+    
 
   
 3. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
