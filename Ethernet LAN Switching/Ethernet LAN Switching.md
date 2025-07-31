@@ -13,8 +13,6 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
    PC1 sends an ARP request:
 
-        Who has 192.168.1.3 (PC3)?
-
         This is a Layer 2 broadcast (FF:FF:FF:FF:FF:FF).
 
         All devices on the LAN (PC2, SW1, SW2, PC3, PC4) will receive the ARP request.
@@ -23,15 +21,9 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
         Sent only to PC1's MAC address.
 
-        Switches will forward to the correct port based on their MAC tables (initially, this may still be via flooding).
-
     PC1 sends ICMP Echo Request ("ping") to PC3:
 
         Now knows PC3's MAC, so the packet is unicast.
-
-        Switches may still flood if MAC tables are not learned yet.
-
-        Eventually, the frame will reach PC3.
 
     PC3 sends ICMP Echo Reply to PC1:
 
