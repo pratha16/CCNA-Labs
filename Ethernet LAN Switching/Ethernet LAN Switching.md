@@ -29,7 +29,6 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
    - Click Simulation Mode.
    - Initiate ping 192.168.1.3 from PC1.
    - Step through each event.
-
        - Observe the ARP request being broadcast.
        - The ARP reply is unicast.
        - The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
@@ -53,7 +52,7 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
 
 5. Clear the dynamic MAC addresses from the MAC address table of each switch.
-    On each switch (SW1 and SW2), run:
+   On each switch (SW1 and SW2), run:
    ```
    clear mac address-table dynamic
    ```
