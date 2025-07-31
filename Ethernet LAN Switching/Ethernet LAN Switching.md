@@ -25,24 +25,24 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
         - Now knows PC3's MAC, so the packet is unicast.
 
-    PC3 sends ICMP Echo Reply to PC1:
+    - PC3 sends ICMP Echo Reply to PC1:
 
-        Also unicast, delivered back across switches.
+        - Also unicast, delivered back across switches.
 
   
 3. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
    
-   Click Simulation Mode.
+   - Click Simulation Mode.
 
-   Initiate ping 192.168.1.3 from PC1.
+   - Initiate ping 192.168.1.3 from PC1.
 
-   Step through each event.
+   - Step through each event.
 
-       Observe the ARP request being broadcast.
+       - Observe the ARP request being broadcast.
 
-       The ARP reply is unicast.
+       - The ARP reply is unicast.
 
-       The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
+       - The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
 
 
 
