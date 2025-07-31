@@ -2,15 +2,16 @@
 
 This README walks through essential router and switch configuration tasks on Cisco equipment (as shown in the topology).
 Each step includes both the **task** and the **required command(s)**.
+
 <img width="424" height="287" alt="image" src="https://github.com/user-attachments/assets/357ce921-469c-41b8-aedb-6318d1f801a4" />
 
 ---
 1. Change the hostnames of the router and switch to the appropriate names (R1, SW1)
      ##Use the 'hostname' command in global configuration mode##
 ON ROUTER
-   ''' enable
+   ```enable
    configure terminal
-   hostname R1'''
+   hostname R1```
    
 
 3.  Configure an unencrypted enable password of 'CCNA' on both devices
