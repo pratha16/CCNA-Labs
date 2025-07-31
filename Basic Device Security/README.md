@@ -70,10 +70,8 @@ Each step includes both the **task** and the **required command(s)**.
    ```
    show running-config
    ```
-   ```
    > - `enable password`: type **7** encryption.
    > - `enable secret`: type **5** encryption.
-   ```
 
 10. Save the running configuration to the startup configuration
     ```
