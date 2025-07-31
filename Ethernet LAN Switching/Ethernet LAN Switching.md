@@ -6,9 +6,9 @@ This guide walks through a classic Packet Tracer lab involving a simple switch n
 
 Both switches have an empty MAC address table, and all PCs have an empty ARP table.
 
-1. If PC1 pings to PC3, what messages will be sent over the network, 
-   and which devices will receive them?
-  Message Sequence:
+1. If PC1 pings to PC3, what messages will be sent over the network, and which devices will receive them?
+
+Message Sequence:
 
     PC1 sends an ARP request:
 
