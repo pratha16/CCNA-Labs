@@ -10,7 +10,6 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
    Message Sequence:
    
-
    - PC1 sends an ARP request:
         - This is a Layer 2 broadcast (FF:FF:FF:FF:FF:FF).
         - All devices on the LAN (PC2, SW1, SW2, PC3, PC4) will receive the ARP request.
@@ -24,7 +23,7 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
     - PC3 sends ICMP Echo Reply to PC1:
         - Also unicast, delivered back across switches.
 
-  
+
 2. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
    
    - Click Simulation Mode.
@@ -34,27 +33,27 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
        - Observe the ARP request being broadcast.
        - The ARP reply is unicast.
        - The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
-
-
-
-5. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
+    
+         
+3. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
    of all PCs on the network.
    
    - From PC1: ping 192.168.1.2, ping 192.168.1.3, ping 192.168.1.4
    - From PC2: ping 192.168.1.1, ping 192.168.1.3, ping 192.168.1.4
    - From PC3: ping 192.168.1.1, ping 192.168.1.2, ping 192.168.1.4
-
-
-7. Use 'show' commands on the switches to identify the MAC address of each PC.
+  
+     
+4. Use 'show' commands on the switches to identify the MAC address of each PC.
    On SW1 and SW2, enter privileged mode and use:
-
    ```
    show mac address-table
    ```
-
    Match MAC addresses to each PC:
-
    - On each PC, use ipconfig /all (Windows).
 
 
-9. Clear the dynamic MAC addresses from the MAC address table of each switch.
+5. Clear the dynamic MAC addresses from the MAC address table of each switch.
+    On each switch (SW1 and SW2), run:
+   ```
+   clear mac address-table dynamic
+   ```
