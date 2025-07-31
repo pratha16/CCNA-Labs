@@ -39,9 +39,7 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
    - Step through each event.
 
        - Observe the ARP request being broadcast.
-
        - The ARP reply is unicast.
-
        - The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
 
 
