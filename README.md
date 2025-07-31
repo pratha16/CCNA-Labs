@@ -1,16 +1,18 @@
 # CCNA-Labs
+Welcome to my CCNA Packet Tracer Labs repository!
 This repository is a collection of hands-on networking labs completed as part of my preparation for the Cisco Certified Network Associate (CCNA).
 The labs are based on Packet Tracer activities from Jeremy’s IT Lab and cover core CCNA topics ranging from device security to VLANs, routing, and more.
-
 About
 
-  - Author: Prathamesh More
+    Author: Prathamesh More
+    
+    Tools: Cisco Packet Tracer
 
-  - Tools: Cisco Packet Tracer
+    Labs: Each subfolder contains a specific lab with:
 
-  - Labs: Each subfolder contains a specific lab with:
-      - Step-by-step README and configuration commands
-      - A Packet Tracer file (.pkt)
+        Step-by-step README and configuration commands
+
+        A Packet Tracer file (.pkt)
 
 Why This Repo?
 
@@ -41,7 +43,7 @@ How to Use
 
 Credits
 
-Lab scenarios inspired by Jeremy’s IT Lab.
+Lab scenarios reproduced from Jeremy’s IT Lab.
 
 Thanks for checking out my learning journey!
-If you have questions or feedback, feel free to open an issue or contact me.
+For questions or feedback, connect with me on [LinkedIn](https://www.linkedin.com/in/morepratham/).
