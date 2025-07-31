@@ -39,7 +39,22 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
 5. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
    of all PCs on the network.
+   
+   - From PC1: ping 192.168.1.2, ping 192.168.1.3, ping 192.168.1.4
+   - From PC2: ping 192.168.1.1, ping 192.168.1.3, ping 192.168.1.4
+   - From PC3: ping 192.168.1.1, ping 192.168.1.2, ping 192.168.1.4
 
-6. Use 'show' commands on the switches to identify the MAC address of each PC.
 
-7. Clear the dynamic MAC addresses from the MAC address table of each switch.
+7. Use 'show' commands on the switches to identify the MAC address of each PC.
+   On SW1 and SW2, enter privileged mode and use:
+
+   ```
+   show mac address-table
+   ```
+
+   Match MAC addresses to each PC:
+
+   - On each PC, use ipconfig /all (Windows).
+
+
+9. Clear the dynamic MAC addresses from the MAC address table of each switch.
