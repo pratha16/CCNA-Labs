@@ -29,15 +29,26 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 
         Also unicast, delivered back across switches.
 
-
-        
-
   
 3. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
+   
+   Click Simulation Mode.
 
-4. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
+   Initiate ping 192.168.1.3 from PC1.
+
+   Step through each event.
+
+       Observe the ARP request being broadcast.
+
+       The ARP reply is unicast.
+
+       The ICMP packets (Echo Request/Reply) are unicast, possibly flooded the first time.
+
+
+
+5. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
    of all PCs on the network.
 
-5. Use 'show' commands on the switches to identify the MAC address of each PC.
+6. Use 'show' commands on the switches to identify the MAC address of each PC.
 
-6. Clear the dynamic MAC addresses from the MAC address table of each switch.
+7. Clear the dynamic MAC addresses from the MAC address table of each switch.
