@@ -83,4 +83,11 @@ This lab demonstrates the process of configuring a Cisco router’s hostnames, i
          ```
 
 13. Ping from PC1 to PC2 and PC3 to test connectivity.
+    - On PC1, go to the "Desktop" tab.
+    - Open "Command Prompt."
+      ```
+      ping 182.98.0.1
+      ping 201.191.20.1
+      ```
+
     
