@@ -62,7 +62,7 @@ This lab demonstrates the process of configuring a Cisco router’s hostnames, i
     - Click on each PC.
     - Go to Config, and then to FastEthernet0.
     - Then enter the assigned IP address and subnet mask of the PC.
-    - 
+   
       PC1:
         IP: 15.0.0.1
       
