@@ -1,6 +1,6 @@
-Network Simulation: Switch MAC Address Learning and Ping Process
+Ethernet LAN Switching
 
-This guide walks through a classic Packet Tracer lab involving a simple switch network with four PCs and two switches. Steps demonstrate ARP and MAC learning using 'ping' and relevant show/clear commands.
+This readme walks through a classic Packet Tracer lab involving a simple switch network with four PCs and two switches. Steps demonstrate ARP and MAC learning using 'ping' and relevant show/clear commands.
 
 ![image](https://github.com/user-attachments/assets/f91764cf-d264-4791-8f99-b7d59d868705)
 
