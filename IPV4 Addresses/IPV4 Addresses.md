@@ -64,19 +64,20 @@ This lab demonstrates the process of configuring a Cisco router’s hostnames, i
     - Then enter the assigned IP address and subnet mask of the PC.
    
       PC1:
-        IP: 15.0.0.1
       
-        Subnet mask: 255.0.0.0
+         IP: 15.0.0.1
+      
+         Subnet mask: 255.0.0.0
     
       PC2:
-        IP: 182.98.0.1
+         IP: 182.98.0.1
       
-        Subnet mask: 255.255.0.0
+         Subnet mask: 255.255.0.0
     
       PC3:
-        IP: 201.191.20.0
+         IP: 201.191.20.0
       
-        Subnet mask: 255.255.255.0
+         Subnet mask: 255.255.255.0
 
 
 13. Ping from PC1 to PC2 and PC3 to test connectivity.
