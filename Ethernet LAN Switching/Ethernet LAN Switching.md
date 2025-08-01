@@ -37,10 +37,24 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
 3. Use pings to generate network traffic and allow the switches to learn the MAC addresses 
    of all PCs on the network.
    
-   - From PC1: ping 192.168.1.2, ping 192.168.1.3, ping 192.168.1.4
-   - From PC2: ping 192.168.1.1, ping 192.168.1.3, ping 192.168.1.4
-   - From PC3: ping 192.168.1.1, ping 192.168.1.2, ping 192.168.1.4
-  
+   - From PC1:
+     ```
+     ping 192.168.1.2
+     ping 192.168.1.3
+     ping 192.168.1.4
+     ```
+   - From PC2:
+     ```
+     ping 192.168.1.1
+     ping 192.168.1.3
+     ping 192.168.1.4
+     ```
+   - From PC3:
+     ```
+     ping 192.168.1.1
+     ping 192.168.1.2
+     ping 192.168.1.4
+     ```
      
 4. Use 'show' commands on the switches to identify the MAC address of each PC.
    On SW1 and SW2, enter privileged mode and use:
