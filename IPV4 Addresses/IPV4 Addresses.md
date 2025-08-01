@@ -60,18 +60,22 @@ This lab demonstrates the process of configuring a Cisco router’s hostnames, i
 
 11. Configure the IP addresses of PC1, PC2, and PC3.
     - Click on each PC.
-    - Go to Config,a dn then to FastEthernet0.
+    - Go to Config, and then to FastEthernet0.
     - Then enter the assigned IP address and subnet mask of the PC.
+    - 
       PC1:
         IP: 15.0.0.1
+      
         Subnet mask: 255.0.0.0
     
       PC2:
         IP: 182.98.0.1
+      
         Subnet mask: 255.255.0.0
     
       PC3:
         IP: 201.191.20.0
+      
         Subnet mask: 255.255.255.0
 
 
